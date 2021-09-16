@@ -28,7 +28,7 @@ import {
   F as _,
   e as v,
   f as E
-} from 'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/assets/vendor.0046c8f2.js'
+} from 'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.0046c8f2.js'
 !(function () {
   const e = document.createElement('link').relList
   if (!(e && e.supports && e.supports('modulepreload'))) {
@@ -329,11 +329,14 @@ const T = {},
       case 'hugo-fun-merchant':
         t = p.exports.lazy(() =>
           q(
-            () => import('./index.58e222f8.js'),
+            () =>
+              import(
+                'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.58e222f8.js'
+              ),
             [
-              'assets/index.58e222f8.js',
-              'assets/vendor.0046c8f2.js',
-              'assets/vendor.7e30b6a2.css'
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.58e222f8.js',
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.0046c8f2.js',
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.7e30b6a2.css'
             ]
           )
         )
@@ -341,12 +344,15 @@ const T = {},
       case 'merchant':
         t = p.exports.lazy(() =>
           q(
-            () => import('./index.63d36aab.js'),
+            () =>
+              import(
+                'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.63d36aab.js'
+              ),
             [
-              'assets/index.63d36aab.js',
-              'assets/index.d83f309d.css',
-              'assets/vendor.0046c8f2.js',
-              'assets/vendor.7e30b6a2.css'
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.63d36aab.js',
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.d83f309d.css',
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.0046c8f2.js',
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.7e30b6a2.css'
             ]
           )
         )
@@ -354,12 +360,15 @@ const T = {},
       default:
         t = p.exports.lazy(() =>
           q(
-            () => import('./index.a15a1918.js'),
+            () =>
+              import(
+                'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.a15a1918.js'
+              ),
             [
-              'assets/index.a15a1918.js',
-              'assets/index.0f77893e.css',
-              'assets/vendor.0046c8f2.js',
-              'assets/vendor.7e30b6a2.css'
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.a15a1918.js',
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.0f77893e.css',
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.0046c8f2.js',
+              'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.7e30b6a2.css'
             ]
           )
         )

@@ -31519,14 +31519,12 @@ var $_,
                             (_.y1 = Math.min(Math.max(_.y1, h.y2), h.y1)),
                             (_.y2 = Math.min(Math.max(_.y2, h.y2), h.y1))
                           var x = t.getMetaData(n, c)
-                          ;(g = s
-                            .elem('line', _, e.classNames.bar)
-                            .attr({
-                              'ct:value': [a.x, a.y]
-                                .filter(t.isNumeric)
-                                .join(','),
-                              'ct:meta': t.serialize(x)
-                            })),
+                          ;(g = s.elem('line', _, e.classNames.bar).attr({
+                            'ct:value': [a.x, a.y]
+                              .filter(t.isNumeric)
+                              .join(','),
+                            'ct:meta': t.serialize(x)
+                          })),
                             this.eventEmitter.emit(
                               'draw',
                               t.extend(

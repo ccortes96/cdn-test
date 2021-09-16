@@ -1,8 +1,8 @@
 import {
   r as e,
   R as t
-} from 'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/assets/vendor.0046c8f2.js'
-import { A as a } from 'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/assets/index.796ee005.js'
+} from 'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.0046c8f2.js'
+import { A as a } from 'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.796ee005.js'
 var n = () => {
   const [n, i] = e.exports.useState(!1),
     [g, c] = e.exports.useState(''),

@@ -10,8 +10,8 @@ import {
   r as l,
   R as p,
   B as o
-} from 'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/assets/vendor.0046c8f2.js'
-import { n as c } from 'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/assets/index.796ee005.js'
+} from 'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.0046c8f2.js'
+import { n as c } from 'https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.796ee005.js'
 function n(e) {
   return l.exports.createElement(
     'svg',
