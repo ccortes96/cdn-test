@@ -6,25 +6,19 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no"
     />
-    <link
-      rel="manifest"
-      href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/manifest.json"
-    />
-    <link
-      rel="shortcut icon"
-      href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/favicon.png"
-    />
-    <link rel="apple-touch-icon" href="/images/icons-192.png" />
+    <link rel="manifest" href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.3/manifest.json" />
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.3/favicon.png" />
+    <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.3/images/icons-192.png" />
     <link
       rel="preload"
-      href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/fonts/GothamHTF-Book.woff2"
+      href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.3/fonts/GothamHTF-Book.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
     <link
       rel="preload"
-      href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/fonts/GothamHTF-Bold.woff2"
+      href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.3/fonts/GothamHTF-Bold.woff2"
       as="font"
       type="font/woff2"
       crossorigin
@@ -32,16 +26,14 @@
     <style>
       @font-face {
         font-family: 'Gotham';
-        src: url('https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/fonts/GothamHTF-Book.woff2')
-          format('woff2');
+        src: url('/fonts/GothamHTF-Book.woff2') format('woff2');
         font-display: swap;
         font-weight: normal;
         font-style: normal;
       }
       @font-face {
         font-family: 'Gotham';
-        src: url('https://cdn.jsdelivr.net/gh/ccortes96/cdn-test/fonts/GothamHTF-Bold.woff2')
-          format('woff2');
+        src: url('/fonts/GothamHTF-Bold.woff2') format('woff2');
         font-display: swap;
         font-weight: bold;
         font-style: normal;
@@ -53,19 +45,9 @@
     </style>
     <title>Hugo Business</title>
     <!-- {%- auth0:head -%} -->
-    <script
-      type="module"
-      crossorigin
-      src="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/index.796ee005.js"
-    ></script>
-    <link
-      rel="modulepreload"
-      href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.0046c8f2.js"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.2/assets/vendor.7e30b6a2.css"
-    />
+    <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.3/assets/index.64b4d968.js"></script>
+    <link rel="modulepreload" href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.3/assets/vendor.c803325f.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.3/assets/vendor.7e30b6a2.css">
   </head>
   <body>
     <noscript> You need to enable JavaScript to run this app. </noscript>
@@ -192,6 +174,7 @@
     <input id="auth0-user-username" value="{{ user.username }}" type="hidden" />
     <!-- {%- auth0:widget -%} -->
 
+    
     <script>
       window.global = window
     </script>
