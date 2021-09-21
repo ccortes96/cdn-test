@@ -44,139 +44,22 @@
       }
     </style>
     <title>Hugo Business</title>
-    <!-- {%- auth0:head -%} -->
-    <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.5/assets/index.2950345b.js"></script>
-    <link rel="modulepreload" href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.5/assets/vendor.c803325f.js">
+    <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.5/assets/index.22335063.js"></script>
+    <link rel="modulepreload" href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.5/assets/vendor.0046c8f2.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ccortes96/cdn-test@v0.0.5/assets/vendor.7e30b6a2.css">
   </head>
   <body>
     <noscript> You need to enable JavaScript to run this app. </noscript>
     <div id="root"></div>
     <div id="portal"></div>
-    <input id="auth0-locale" value="{{ locale }}" type="hidden" />
-    <input type="hidden" id="auth0-app-name" value="{{ application.name }}" />
-    <input type="hidden" id="auth0-app-id" value="{{ application.id }}" />
-    <input
-      id="auth0-app-logo-url"
-      value="{{ application.logo_url }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-app-metadata"
-      value="{{ application.metadata }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-brand-logo-url"
-      value="{{ branding.logo_url }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-brand-colors-primary"
-      value="{{ branding.colors.primary }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-brand-colors-p-background"
-      value="{{ branding.colors.page_background }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-tenat-name"
-      value="{{ tenant.friendly_name }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-tenat-support-email"
-      value="{{ tenant.support_email }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-tenat-support-url"
-      value="{{ tenant.support_url }}"
-      type="hidden"
-    />
-
-    <input id="auth0-org-id" value="{{ organization.id }}" type="hidden" />
-    <input
-      id="auth0-org-display-name"
-      value="{{ organization.display_name }}"
-      type="hidden"
-    />
-    <input id="auth0-org-name" value="{{ organization.name }}" type="hidden" />
-    <input
-      id="auth0-org-metadata"
-      value="{{ organization.metadata }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-org-brand-logo-url"
-      value="{{ organization.branding.logo_url }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-org-brand-colors-primary"
-      value="{{ organization.branding.colors.primary }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-org-brand-colors-p-background"
-      value="{{ organization.branding.colors.page_background }}"
-      type="hidden"
-    />
-
-    <input
-      id="auth0-prompt-name"
-      value="{{ prompt.name prompt.screen.name }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-prompt-screen-name"
-      value="{{ prompt.screen.name }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-prompt-screen-texts"
-      value="{{ prompt.screen.texts }}"
-      type="hidden"
-    />
-
-    <input id="auth0-user-user-id" value="{{ user.user_id }}" type="hidden" />
-    <input id="auth0-user-picture" value="{{ user.picture }}" type="hidden" />
-    <input id="auth0-user-email" value="{{ user.email }}" type="hidden" />
-    <input
-      id="auth0-user-email-verified"
-      value="{{ user.email_verified }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-user-app-metadata"
-      value="{{ user.app_metadata }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-user-user-metadata"
-      value="{{ user.user_metadata }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-user-family-name"
-      value="{{ user.family_name }}"
-      type="hidden"
-    />
-    <input
-      id="auth0-user-given-name"
-      value="{{ user.given_name }}"
-      type="hidden"
-    />
-    <input id="auth0-user-name" value="{{ user.name }}" type="hidden" />
-    <input id="auth0-user-nickname" value="{{ user.nickname }}" type="hidden" />
-    <input id="auth0-user-username" value="{{ user.username }}" type="hidden" />
-    <!-- {%- auth0:widget -%} -->
-
     
     <script>
       window.global = window
+    </script>
+    <script>
+      window.auth0Application = JSON.parse(
+        decodeURIComponent(escape(window.atob('@@config@@')))
+      )
     </script>
   </body>
 </html>
